@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'RingBearer';
+    src: url('./fonts/Ringbearer.ttf');
+  }
+
+@font-face {
+    font-family: 'Planewalkerbold';
+    src: url('./fonts/PlanewalkerBold-xZj5.ttf');
+}
+
+body {
+    
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.sidenav {
+    overflow: hidden;
+    position: fixed; /* Change position to fixed */
+    height: 100%;
+    width: 30vh;
+    z-index: 1;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    border-radius: 40px; /* Rounded edges */
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+
+.sidenav h1 {
+    font-family: Planewalkerbold;
+}
+
+.sidenav li {
+    margin-left: 0;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin: 0;
+
+}
+
+.sidenav ul {
+    position: relative;
+}
+
+.sidenav a, ul, li {
+    padding-left: 0;
+    align-items: stretch;
+    list-style-type: none;
+    font-size: 2.9vh;
+    
+    font-family: RingBearer;
+    color: white;
+    text-decoration: none;
+}
+
+.sidenav li:hover {
+    background-color: gold;
+    border-radius: 2vh;
+}
+
+.line {
+    width: 80%;
+    border: 5px solid gold;
+    border-radius: 1vh;
+    display: flex;
+    margin: 0 auto;
+}

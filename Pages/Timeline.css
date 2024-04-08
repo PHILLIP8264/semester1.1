@@ -1,0 +1,43 @@
+.timebox {
+    float: right;
+    width: 105vh;
+    height: 100vh;
+    background-color: #111;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 40px;
+    font-family: Ringbearer;
+}
+
+.linechart {
+    margin: auto 10vh;
+    margin-top: 5vh;
+    width: 80%;
+    height: 60vh;
+    color: white;
+    font-size: 5vh;
+    text-align: center;
+}
+
+.title {
+    width: 75%;
+    margin-left: 35vh;
+}
+
+.optoins {
+    width: 22vh;
+    margin: auto ;
+    margin-top: 5vh;
+    
+}
+
+.drop {
+    background-color: rgb(76, 76, 76);
+    width: 20vh;
+    height: 4vh;
+    padding-left: 0.5vh;
+    font-family: Ringbearer;
+    font-size: 2vh;
+    color: white;
+    border: transparent;
+    border-radius: 40px;
+}

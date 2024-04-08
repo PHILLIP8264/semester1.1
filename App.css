@@ -1,0 +1,27 @@
+
+
+body {
+    
+    background-image: url('./Images/magic.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    
+}
+
+
+
+.App {
+    
+    width: 70%;
+    height: 80vh;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+
+.container {
+  width: 100%;
+  color: black;
+
+}
+

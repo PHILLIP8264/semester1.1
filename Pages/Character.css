@@ -1,0 +1,80 @@
+.Character{
+    width: 78%;
+    float: right;
+}
+
+.containercard1 {
+    float: right;
+    width: 50%;
+    height: 80vh;
+    
+}
+
+.containercard2 {
+    
+    width: 50%;
+    height: 80vh;
+    
+}
+
+.card4 {
+    margin-left: 5vh;
+    width: 70%;
+    height: 60vh;
+    background-color: #111;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 40px;
+    text-align: center;
+    
+}
+
+.card1 {
+    color: white;
+    float: right;
+    width: 110%;
+    height: 60vh;
+    background-color: #111;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 40px;
+    text-align: center;
+}
+
+.card1 p {
+    margin-top: 3vh;
+    font-size: 2.3vh;
+}
+
+.cardimg {
+    margin-top: 2vh;
+    width: 75%;
+    background-color: white;
+    border: white 5px solid;
+    border-radius: 30px;
+    
+}
+
+
+
+.searchcard {
+    margin-top: 2vh;
+    height: 3vh;
+    width: 25vh;
+    font-size: 2vh;
+    font-family: RingBearer;
+    background-color: whitesmoke;
+    border: transparent;
+    color: #111;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+.buttoncard {
+    padding-bottom: 1vh;
+    margin-top: 0vh;
+    font-size: 2.3vh;
+    height: 3vh;
+    border: transparent;
+    font-family: RingBearer;
+    background-color: whitesmoke;
+    color: #111;
+    text-align: center;
+}
